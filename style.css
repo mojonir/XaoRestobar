@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stilized the header */
+#header {
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    background-color: black;
+    z-index: 1;
+}
+
+/* Stilized menu */
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Put the links in one line */
+#menu-h ul li{
+    display: inline;
+}
+
+/* stilized the links wiht color ant take off the tex-decoration */
+#menu-h ul li a{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+/* Adding a footer in the finel of the webpage*/
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto; 
+    bottom: 0;
+    text-align: center;    
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+}
+/* Addin width and margin-top for the link img */
+img{
+    width: 50px;
+    margin-top: 15px;
+    display: block;
+}
