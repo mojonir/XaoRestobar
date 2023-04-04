@@ -40,7 +40,7 @@
 }
 /* Adding a footer in the finel of the webpage*/
 #footer{
-    position: absolute;
+    position: bottom;
     bottom: 0;
     width: 100%;
     height: 70px;
@@ -59,9 +59,78 @@
   #content-wrap {
     padding-bottom: 2.5rem;    /* altura do rodapé */
 }
-/* Addin width and margin-top for the link img */
-img{
+
+#logo{
     width: 50px;
     margin-top: 15px;
     display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title{
+    width: 80vw;
+    height: 300px;
+    text-align: justify;
+    font-size: 50px;
+    }
+
+.img-ph{
+    background-color: gray;
+    
+}
+
+.slider{
+    display: block;
+    width: 80vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    transition: 5s ease-in-out;
+    
+}
+
+@keyframes slide {
+    
+    00%,25%{
+        background-image: url(assets/place-holder.png);
+        min-width: 800px;
+        min-height: 450px;
+        opacity: 0
+    }
+    25%, 50%{
+        background-image: url(assets/place-holder.png);
+        min-width: 800px;
+        min-height: 450px;
+        opacity: 1;
+        
+    }
+    50%, 75%{
+        background-image: url(assets/place-holder2.png);
+        min-width: 800px;
+        min-height: 450px;
+    }
+    75%,95%{
+        background-image: url(assets/place-holder3.png);
+        min-width: 800px;
+        min-height: 450px;
+        opacity: 1;
+    }
+    95%,100%{
+        background-image: url(assets/place-holder3.png);
+        min-width: 800px;
+        min-height: 450px;
+        opacity: 0;
+    }
+
 }
