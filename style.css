@@ -40,14 +40,13 @@
 }
 /* Adding a footer in the finel of the webpage*/
 #footer{
-    position: bottom;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 70px;
     background-color: black;
     margin-left: auto;
     margin-right: auto; 
-    bottom: 0;
     text-align: center;    
 }
 
