@@ -7,7 +7,7 @@
 
 /* Stilized the header */
 #header {
-    height: 70px;
+    height: 90px;
     width: 100%;
     margin: auto;
     margin-top: 50px;
@@ -35,15 +35,17 @@
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
+    font-family: 'Saira Condensed', sans-serif; /* Font inported of Google fonts */
 }
+
 /* Adding a footer in the finel of the webpage*/
 #footer{
     position: absolute;
     width: 100%;
-    height: 70px;
+    height: 90px;
     background-color: black;
     margin-left: auto;
     margin-right: auto; 
@@ -107,7 +109,7 @@ img{
 }
 
 .titulo{
-    margin-top: 270px;
+    margin-top: 250px;
 }
 
 .margin-right2{
@@ -117,3 +119,28 @@ img{
 .margin-right3{
     margin-right: 30Px;
 }
+
+/* Stilized the star avaliatin */
+.avaliacao{
+    display: flex;
+   }
+  .star-icon{
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #ffe500;
+    display: inline-block;
+    font-size: 40px;/* modificad the star size */
+  }
+  .star-icon::before{
+    content: "\2605";
+  }
+  .star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+  }
+  .avaliacao:hover .star-icon::before{
+    content: "\2605";
+  }
+  .star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+  }

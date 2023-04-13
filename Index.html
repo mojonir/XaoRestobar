@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="Index.js"></script>
+        <!-- Link of the font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
+        </style>
+            
         <title>Xão Restobar</title>
     </head>
     <body>
@@ -31,13 +36,22 @@
                 <form action="">
                     <h4 class="justify titulo">Deixe o sua avaliação</h4>
                     <div>
-                    <input type="text" class="border float-right margin-right3" placeholder="nome">
+                        <input type="text" class="border float-right margin-right3" placeholder="nome">
                     </div>
                     <div>
-                    <input type="email"  class="border float-right margin-right3" placeholder="E-mail" required>
+                    <!-- Creating the star avaliation -->
+                    <ul class="avalicao">
+                        <li class="star-icon ativo" data-avaliacao="1"></li>
+                        <li class="star-icon" data-avaliacao="2"></li>
+                        <li class="star-icon" data-avaliacao="3"></li>
+                        <li class="star-icon" data-avaliacao="4"></li>
+                        <li class="star-icon" data-avaliacao="5"></li>
                     </div>
                     <div>
-                    <textarea class="opniao border" cols="30" rows="8" placeholder="Sua opnião" required></textarea>
+                        <input type="email"  class="border float-right margin-right3" placeholder="E-mail" required>
+                    </div>
+                    <div>
+                        <textarea class="opniao border" cols="30" rows="8" placeholder="Sua opnião" required></textarea>
                     </div>
                     <input type="submit"   class="border button" value="Cancelar" class="input_submit">
                     <input type="submit"   class="border button2 margin-right" value="Eviar" class="input_submit">
@@ -46,9 +60,11 @@
              <!-- Creating the footer page -->
             <footer id="footer">
                 <!-- Creating the img link for social midias -->
-                <ul >
-                    <li><a href="https://www.instagram.com/xaorestobar/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzuhe6qxutJFvNHG9vVsErhWExvOFqSx9vQ&usqp=CAU" alt="link para o insta do Xão Restobar"></a></li>
-                </ul>
+                <div id="instalogo">
+                    <ul >
+                        <li><a href="https://www.instagram.com/xaorestobar/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzuhe6qxutJFvNHG9vVsErhWExvOFqSx9vQ&usqp=CAU" alt="link para o insta do Xão Restobar"></a></li>
+                    </ul>
+                </div>
             </footer>
         </div>
     </body>
