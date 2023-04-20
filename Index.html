@@ -8,7 +8,7 @@
         <script type="text/javascript" src="Index.js"></script>
         <!-- Link of the font -->
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Saira+Condensed:wght@700&display=swap');
         </style>
             
         <title>Xão Restobar</title>
@@ -29,11 +29,14 @@
         </header>
         <div id="page-container">
             <div id="content-wrap">
-            </div>
+        </div>
+        <div class="img float-left">
+            <img class="img" src="https://lh3.googleusercontent.com/p/AF1QipMfzxmhEPEnB0QeeqC28MrirtL3sJnYJK5Upiff=s680-w680-h510" alt="">
+        </div>
             <!-- Creating the feedback area. falta fazer o estilo dassa parte-->
         <div class="Feedback">
             <div class="float-right margin-right2">
-                <form action="">
+                <form action="" id="form">
                     <h4 class="justify titulo">Deixe o sua avaliação</h4>
                     <div class="avalicao">
                         <!-- Creating the star avaliation -->
@@ -46,24 +49,24 @@
                         </ul>
                     </div> 
                     <div>
-                        <input type="text" class="border float-right margin-right3" placeholder="nome">
+                        <input type="text" id="name" class="border float-right margin-right3" placeholder="nome" requered>
                     </div> 
                     <!-- <div>
                         <input type="email"  class="border float-right margin-right3" placeholder="E-mail" required>
                     </div> -->
                     <div>
-                        <textarea class="opniao border" cols="30" rows="8" placeholder="Sua opnião" required></textarea>
+                        <textarea id="opniao" class="opniao border" cols="30" rows="8" placeholder="Sua opnião"></textarea>
                     </div>
                     <input type="submit"   class="border button margin-left" value="Cancelar" class="input_submit">
                     <input type="submit"   class="border button2" value="Eviar" class="input_submit">
-                </form>
+                </form id="form__submit">
             </div>
              <!-- Creating the footer page -->
             <footer id="footer">
                 <!-- Creating the img link for social midias -->
-                <div id="instalogo">
+                <div>
                     <ul >
-                        <li><a href="https://www.instagram.com/xaorestobar/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzuhe6qxutJFvNHG9vVsErhWExvOFqSx9vQ&usqp=CAU" alt="link para o insta do Xão Restobar"></a></li>
+                        <li><a href="https://www.instagram.com/xaorestobar/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzuhe6qxutJFvNHG9vVsErhWExvOFqSx9vQ&usqp=CAU" width="70px" height="70px" alt="link para o insta do Xão Restobar"></a></li>
                     </ul>
                 </div>
             </footer>

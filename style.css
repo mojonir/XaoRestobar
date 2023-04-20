@@ -31,14 +31,14 @@
 
 /* stilized the links wiht color ant take off the tex-decoration */
 #menu-h ul li a{
-    padding: 20px;
+    padding: 30px;
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Saira Condensed', sans-serif; /* Font inported of Google fonts */
+    font-family: 'Open Sans', sans-serif; /* Font inported of Google fonts */
 }
 
 /* Adding a footer in the finel of the webpage*/
@@ -63,8 +63,8 @@
 }
 /* Addin width and margin-top for the link img */
 img{
-    width: 50px;
     margin-top: 15px;
+    margin-bottom: 15px;
     display: block;
 }
 
@@ -110,7 +110,7 @@ img{
 }
 
 .titulo{
-    margin-top: 200px;
+    margin-top: 230px;
 }
 
 .margin-right2{
@@ -130,7 +130,7 @@ img{
     list-style-type: none;
     border: 1px solid #fff;
     cursor: pointer;
-    color: #ffe500;
+    color: black;
     font-size: 40px;/* modificad the star size */
     margin-left: 20px;
     display: inline-block;
