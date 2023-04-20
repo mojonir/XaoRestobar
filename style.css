@@ -151,3 +151,15 @@ img{
 .star-icon:hover ~ .star-icon::before{
     content: "\2606";
 }
+
+/* Cardapio style*/
+
+.img{
+    width: 40vw;
+    height: 40vh;
+    margin: 20px 20px;
+}
+
+.float-left{
+    float: left;
+}
