@@ -152,12 +152,28 @@ img{
     content: "\2606";
 }
 
+.descricao{
+    width: 30vw;
+    height: 20vh;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-indent: 3ch;
+    font-size: 20px;
+    /* font-family: forma; */ /* nome da font pra eu achar depois */
+}
+
+.alinhamento{
+    text-align: center;
+}
+
 /* Cardapio style*/
 
 .img{
     width: 40vw;
     height: 40vh;
-    margin: 20px 20px;
+    margin: 10px 20px;
+    background-color: black;
 }
 
 .float-left{
