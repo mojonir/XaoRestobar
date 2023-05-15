@@ -42,19 +42,16 @@
 }
 
 /* Adding a footer in the finel of the webpage*/
-<<<<<<< HEAD
 .footer{
     position: absolute;
     width: 100%;
     height: 90px;
-=======
 #footer{
     position:absolute;         
     bottom: 0;
     left:0;
     width: 100vw;
     height: 70px;
->>>>>>> ebd85aa95f786eee25cbebcd05501e6cf9343fb7
     background-color: black;
     margin-left: auto;
     margin-right: auto; 
@@ -69,23 +66,15 @@
   .content-wrap {
     padding-bottom: 2.5rem;    /* height of footer */
 }
-<<<<<<< HEAD
 /* Addin width and margin-top for the link img */
-img{
-=======
+.img{
 
 #logo{
     width: 50px;
->>>>>>> ebd85aa95f786eee25cbebcd05501e6cf9343fb7
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
 }
-
-<<<<<<< HEAD
-/* Home page style */
-/* Stiling the feedback area */
-
 .opniao{
     resize: none;
     margin-left: 55px;
@@ -210,9 +199,9 @@ img{
     text-align: center;
 }
 
-h3{
+.h3{
     margin-bottom: -80px;
-=======
+
 .text-center{
     text-align: center;
 }
@@ -280,6 +269,4 @@ h3{
         min-height: 450px;
         opacity: 0;
     }
-
->>>>>>> ebd85aa95f786eee25cbebcd05501e6cf9343fb7
 }
