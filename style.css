@@ -188,25 +188,13 @@ img{
     justify-content: space-around;
 }
 
-.conteudo1{
-    background-color: white;
+.conteudo{
     height: 184px;
     width: 200px;
     margin-top: 20px;
     text-align: center;
-    font-size: 25px;
 }
 
-.conteudo2{
-    background-color: rgb(7, 98, 235);
-    height: 184px;
-    width: 200px;
-    margin-top: 20px;
-}
-
-.conteudo3{
-    background-color: red;
-    height: 184px;
-    width: 200px;
-    margin-top: 20px;
+h3{
+    margin-bottom: -80px;
 }
