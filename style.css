@@ -45,7 +45,7 @@
 .footer{
     position: absolute;
     width: 100vw;
-    height: 75px;
+    height: 90px;
     position:absolute;         
     bottom: 0;
     left:0;
@@ -55,6 +55,16 @@
     text-align: center;   
     padding-top: 5px; 
     padding-bottom: 75px;
+}
+
+/* Fix the img link in the footer*/
+#footer img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .page-container {
@@ -103,6 +113,10 @@
     margin-left: 56px;
 }
 
+.margin-left2{
+    margin-left: 20px;
+}
+
 .float-right{
     float: right;
 }
@@ -112,7 +126,7 @@
 }
 
 .titulo{
-    margin-top: 228px;
+    margin-top: 218px;
 }
 
 .margin-right2{
