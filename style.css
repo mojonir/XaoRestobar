@@ -78,7 +78,12 @@
   
 .content-wrap {
     padding-bottom: 2.5rem;    /* height of footer */
+<<<<<<< HEAD
 /* Addin width and margin-top for the link img */
+=======
+}
+.img{
+>>>>>>> 76b7d28773141276384373e07e68f2384f286459
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
