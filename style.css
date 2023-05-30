@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+#body{
+    overflow-x: hidden !important;
+}
+
 /* Stilized the header */
 .header {
     height: 90px;
@@ -14,6 +18,11 @@
     margin-bottom: 5px;
     background-color: black;
     z-index: 1;
+}
+
+.menu-h ul li:hover{
+    padding: 90px !important;
+    transition: 0.3s;
 }
 
 /* Stilized menu */
@@ -27,6 +36,7 @@
 /* Put the links in one line */
 .menu-h ul li{
     display: inline;
+    transition: 0.3s ease-out;
 }
 
 /* stilized the links wiht color ant take off the tex-decoration */
@@ -39,13 +49,14 @@
     font-weight: bold;
     text-align: center;
     font-family: 'Open Sans', sans-serif; /* Font inported of Google fonts */
+    
 }
 
 /* Adding a footer in the finel of the webpage*/
 .footer{
     position: absolute;
-    width: 100vw;
-    height: 90px;
+    width: 100% !important;
+    height: 80px;
     position:absolute;         
     bottom: 0;
     left:0;
@@ -250,35 +261,42 @@
 
 @keyframes slide {
 
-    00%,25%{
-        background-image: url(assets/place-holder.png);
+    0%{
+        background-image: url(assets/ft1.jpg);
         min-width: 800px;
         min-height: 450px;
-        opacity: 0
+        opacity: 1
+    }
+    20%,25%{
+        background-image: url(assets/ft1.jpg);
+        min-width: 800px;
+        min-height: 450px;
+        opacity: 1
     }
     25%, 50%{
-        background-image: url(assets/place-holder.png);
+        background-image: url(assets/ft2.jpg);
         min-width: 800px;
         min-height: 450px;
         opacity: 1;
 
     }
     50%, 75%{
-        background-image: url(assets/place-holder2.png);
+        background-image: url(assets/ft2.jpg);
         min-width: 800px;
         min-height: 450px;
+        opacity: 1;
     }
     75%,95%{
-        background-image: url(assets/place-holder3.png);
+        background-image: url(assets/ft3.jpg);
         min-width: 800px;
         min-height: 450px;
         opacity: 1;
     }
     95%,100%{
-        background-image: url(assets/place-holder3.png);
+        background-image: url(assets/ft1.jpg);
         min-width: 800px;
         min-height: 450px;
-        opacity: 0;
+        opacity: 1;
     }
 
 }
