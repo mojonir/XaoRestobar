@@ -1,5 +1,3 @@
-/* Ver com o sor pq o formulario não funcionou e as estrelas não está pintando */
-
 //* Star functionality */
 var stars = document.querySelectorAll('.star-icon');
                   
@@ -15,12 +13,42 @@ document.addEventListener('click', function(e){
 });
 
 /* Submit function */
-function Submit(event) {
-  form.textContent = `Form Submitted! Time stamp: ${event.timeStamp}`;
-  event.preventDefault();
+function submitForm() {
+  let form = document.getElementById("form__submit");
+  form.submit();
 }
 
-const form = document.getElementById('form');
-const name = document.getElementById('name');
-const oponiao = document.getElementById('oponiao');
-form.addEventListener('submit', 'name',  Submit); 
+// Creating a Slider carousel function 
+const controls = document.querySelectorAll(".control");
+let currentItem = 0;
+const items = document.querySelectorAll(".item");
+const maxItems = items.length;
+
+controls.forEach((control) => {
+  control.addEventListener("click", (e) => {
+    isLeft = e.target.classList.contains("arrow-left");
+
+    if (isLeft) {
+      currentItem -= 1;
+    } else {
+      currentItem += 1;
+    }
+
+    if (currentItem >= maxItems) {
+      currentItem = 0;
+    }
+
+    if (currentItem < 0) {
+      currentItem = maxItems - 1;
+    }
+
+    items.forEach((item) => item.classList.remove("current-item"));
+
+    items[currentItem].scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
+
+    items[currentItem].classList.add("current-item");
+  });
+});

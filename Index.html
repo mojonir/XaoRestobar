@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="Index.js"></script>
         <!-- Link of the font -->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Saira+Condensed:wght@700&display=swap');
@@ -30,8 +29,26 @@
         <div class="page-container">
             <div class="content-wrap">
         </div>
+        <!-- Crea ting tha Slider Carousel -->
         <div class="img float-left">
-            <img class="img" src="https://lh3.googleusercontent.com/p/AF1QipMfzxmhEPEnB0QeeqC28MrirtL3sJnYJK5Upiff=s680-w680-h510" alt="Imagem do estabelecimendo do Xão Restobar">
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous image">◀</button>
+                <button class="arrow-right control" aria-label="Next Image">▶</button>
+                <div class="gallery-wrapper">
+                  <div class="gallery">
+                    <!--       <div class="item current-item cyan"></div>
+                    <div class="item deeppink"></div>
+                    <div class="item turquoise"></div>
+                    <div class="item darkblue"></div>
+                    <div class="item purple"></div> -->
+                    <img src="https://source.unsplash.com/random/250x250/?beach" alt="Beach Image" class="item current-item">
+                    <img src="https://source.unsplash.com/random/250x250/?animal" alt="Animal Image" class="item current-item">
+                    <img src="https://source.unsplash.com/random/250x250/?street" alt="Street Image" class="item current-item">
+                    <img src="https://source.unsplash.com/random/250x250/?zoo" alt="Zoo Image" class="item current-item">
+                    <img src="https://source.unsplash.com/random/250x250/?model" alt="Model Image" class="item current-item">
+                  </div>
+                </div>
+              </div>
         </div>
         <div class="descricao">
             <h1 class="alinhamento">Xão Restobar</h1>
@@ -52,7 +69,7 @@
             <!-- Creating the feedback area. falta fazer o estilo dassa parte-->
         <div class="Feedback">
             <div class="float-right margin-right2">
-                <form action="" id="form">
+                <form id="form__submit">
                     <h4 class="justify titulo">Deixe o sua avaliação</h4>
                     <div class="avalicao">
                         <!-- Creating the star avaliation -->
@@ -75,7 +92,7 @@
                     </div>
                     <input type="submit"   class="border button margin-left" value="Cancelar" class="input_submit">
                     <input type="submit"   class="border button2" value="Eviar" class="input_submit">
-                </form id="form__submit">
+                </form>
             </div>
              <!-- Creating the footer page -->
             <footer class="footer">
@@ -107,5 +124,6 @@
                 </div>
             </footer>
         </div>
+        <script type="text/javascript" src="Index.js"></script>
     </body>
 </html>
