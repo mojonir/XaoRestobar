@@ -357,7 +357,7 @@ h1 {
   
   .item {
     width: 250px;
-    height: 250px;
+    height: 300px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.5;
@@ -381,27 +381,6 @@ h1 {
     scrollbar-width: none; /* Firefox */
   }
   
-  .cyan {
-    background: cyan;
-  }
-  
-  .deeppink {
-    background: deeppink;
-  }
-  
-  .turquoise {
-    background: turquoise;
-  }
-  
-  .darkblue {
-    background: darkblue;
-  }
-  
-  .purple {
-    background: purple;
-  }
-  
-
 /* Creating the respisible menu */
 /* Smartphone resolution */
 /* @media screen and (max-width: 576px){
