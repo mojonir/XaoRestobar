@@ -55,7 +55,7 @@
 /* Adding a footer in the finel of the webpage*/
 .footer{
     position: absolute;
-    width: 100% !important;
+    width: 100vw !important;
     height: 80px;
     position:absolute;         
     bottom: 0;
@@ -238,21 +238,16 @@
 }
 
 .slider{
-    display: block;
-    width: 80vw;
-    height: 70vh;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex; 
+    align-self: auto !important;
+    margin-left: 37vw;
     margin-top: 0px;
-    background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: contain;
     animation-name: slide;
     animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-timing-function: linear;
-    transition: 5s ease-in-out;
-
 }
 
 .Contato{
@@ -385,3 +380,23 @@ h1 {
 /* Smartphone resolution */
 /* @media screen and (max-width: 576px){
 } */
+
+@media only screen and (max-width: 500px) {
+
+    .menu-h ul li a {
+        padding: 20px;
+    }
+    
+    #footer img {
+        margin-left: 25vh;
+        margin-top: 4vh;
+    }
+
+    #footer p {
+        font-size: 0;
+    }
+
+    .slider {
+        margin-left: 5vw;
+    }
+}
