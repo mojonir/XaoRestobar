@@ -374,20 +374,7 @@ h1 {
   .gallery-wrapper {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-  }
-
-/* .mobile-menu-icon {
-    display: none;
-} */
-
-/* .mobile-menu {
-    display: none;
-} */
-  
-/* Creating the respisible menu */
-/* Smartphone resolution */
-/* @media screen and (max-width: 576px){
-} */
+}
 
 @media only screen and (max-width: 500px) {
 
@@ -407,4 +394,6 @@ h1 {
     .slider {
         margin-left: 5vw;
     }
+
+    /* creating the responsible menu */
 }
