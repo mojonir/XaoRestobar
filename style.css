@@ -380,8 +380,33 @@ h1 {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
+/* .mobile-menu-icon {
+    display: none;
+} */
+
+/* .mobile-menu {
+    display: none;
+} */
   
 /* Creating the respisible menu */
 /* Smartphone resolution */
-/* @media screen and (max-width: 576px){
-} */
+@media screen and (max-width: 730px) { 
+    /* .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu-icon{
+        background-color: transparent;
+    } */
+    
+/* responsible Screen */
+}
