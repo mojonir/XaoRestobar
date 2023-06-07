@@ -376,12 +376,23 @@ h1 {
     scrollbar-width: none; /* Firefox */
 }
 
-@media only screen and (max-width: 500px) {
+.nav-button{
+    display: none;
+}
 
-    .menu-h ul li a {
-        padding: 20px;
+.overlay-content{
+    display: none;
+}
+
+.overlay{
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {  
+    *{
+        overflow-x: hidden;
     }
-    
+
     #footer img {
         margin-left: 25vh;
         margin-top: 4vh;
@@ -395,5 +406,67 @@ h1 {
         margin-left: 5vw;
     }
 
+    .header{
+        display: none;
+    }
+
     /* creating the responsible menu */
+    .menu-h{
+        display: none;
+    }
+
+    .overlay{
+        display: block;
+    }
+
+    .nav-button{
+        display: block;
+        border: 0;
+        padding: 8px;
+        margin: 8px;
+        background-color: white;
+    }
+    
+    .overlay{
+        height: 100%;   
+        z-index: 9;
+        position: fixed;
+        width: 60%;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+        transition: all 0.5s;
+        background-color: rgba(0,0,0, 0.9);
+        overflow: hidden;
+    }
+
+    .content{
+        position:relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a{
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        display: block;
+        font-size: 34px;
+        transition: 0.3s;
+        padding-bottom: 10px;
+    }
+
+    .overlay .link:hover, .overlay .link:focus{
+        color: black;
+        background-color:  #d3d3d3;
+    }
+
+    .overlay .closebtn{
+        position: absolute;
+        top: 25px;
+        right: 45px;
+        font-size: 60px;
+    }
 }
