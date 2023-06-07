@@ -471,11 +471,11 @@ h1 {
     }
     /* Creating the responsible screen for home page */
     .descricao{
-        width: 80%;
-        height: 40%;
+        width: 80vw;
+        height: 80vh;
         clear: both;
         margin-left: 40px;
-        margin-top: -770px;
+        margin-top: -950px;
         text-indent: 3ch;
         font-size: 20px;
     }
@@ -486,7 +486,7 @@ h1 {
 
     .img{
         margin-top: 390px;
-        width: 87%;
-        height: 87%;
+        width: 87vw;
+        height: 87vh;
     }
 }
