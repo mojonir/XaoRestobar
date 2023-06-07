@@ -394,7 +394,7 @@ h1 {
     }
 
     #footer img {
-        margin-left: 25vh;
+        margin-left: 5vh;
         margin-top: 4vh;
     }
 
@@ -468,5 +468,25 @@ h1 {
         top: 25px;
         right: 45px;
         font-size: 60px;
+    }
+    /* Creating the responsible screen for home page */
+    .descricao{
+        width: 80%;
+        height: 40%;
+        clear: both;
+        margin-left: 40px;
+        margin-top: -770px;
+        text-indent: 3ch;
+        font-size: 20px;
+    }
+
+    .Feedback{
+        clear: both;
+    }
+
+    .img{
+        margin-top: 390px;
+        width: 87%;
+        height: 87%;
     }
 }
