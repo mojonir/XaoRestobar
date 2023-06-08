@@ -393,13 +393,12 @@ h1 {
         overflow-x: hidden;
     }
 
-    #footer img {
-        margin-left: 5vh;
-        margin-top: 4vh;
-    }
-
     #footer p {
         font-size: 0;
+    }
+
+    .footer{
+        overflow-y: hidden;
     }
 
     .slider {
@@ -489,4 +488,9 @@ h1 {
         width: 87vw;
         height: 87vh;
     }
+
+    .sem{
+        display: none;
+    }
+     /* Creating the responsible screen for cardápio */
 }
