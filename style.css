@@ -477,6 +477,7 @@ h1 {
         margin-top: -950px;
         text-indent: 3ch;
         font-size: 20px;
+        display: block;
     }
 
     .Feedback{
