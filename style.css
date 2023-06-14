@@ -501,6 +501,10 @@ h1 {
         text-align: center;
      }
 
+     .margin1{
+        margin-left: 50px;
+     }
+
      /* Creating the responsible screen for bar */
      .conteudo2{
         height: 260px;
