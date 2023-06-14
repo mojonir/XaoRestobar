@@ -384,6 +384,10 @@ h1 {
     display: none;
 }
 
+.sem2{
+    display: none;
+}
+
 @media only screen and (max-width: 500px) {  
     *{
         overflow-x: hidden;
@@ -489,16 +493,21 @@ h1 {
     .sem{
         display: none;
     }
+
+    .margin1{
+        margin-left: 60px;
+    }
+
+    .display{
+        display: block;
+    }
+
      /* Creating the responsible screen for cardápio */
      .conteudo3{
         height: 100vh;
         width: 100vw;
         margin-top: 20px;
         text-align: center;
-     }
-
-     .margin1{
-        margin-left: 50px;
      }
 
      /* Creating the responsible screen for bar */
