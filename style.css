@@ -473,10 +473,6 @@ h1 {
         display: block;
     }
 
-    .Feedback{
-        clear: both;
-    }
-
     .img{
         margin-top: 390px;
         width: 87vw;
@@ -504,9 +500,15 @@ h1 {
      }
 
      /* Creating the responsible screen for bar */
+
+     .title_mobile{
+        margin-left: 10px;
+        margin-top: 10px;
+     }
+
      .conteudo2{
-        height: 260px;
-        width: 200px;
+        height: 250px;
+        width: 350px;
         margin-top: 20px;
         text-align: center;
      }
