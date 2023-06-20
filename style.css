@@ -129,6 +129,7 @@
 }
 
 /* Descripiton in the home page */
+
 .descricao{
     width: 30vw;
     height: 20vh;
@@ -142,6 +143,47 @@
 
 .alinhamento{
     text-align: center;
+}
+
+.bigTxt{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight:900;    
+}
+
+.medTxt{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight:200;
+    padding-top:300px
+}
+
+.btReserva{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-decoration:none;
+    justify-content:center;
+    display:flex;
+    background-color:black;
+    border:5px;
+    color:white;
+    width: 752px;
+    padding: 52px;
+    line-height: 0px;
+
+}
+
+.logoHeader{
+    justify-content: center;
+    display: flex;
+}
+
+.txtHeader{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 15px;    
 }
 
 /* Cardapio style*/
