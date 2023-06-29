@@ -497,4 +497,21 @@ h1 {
         margin-top: 20px;
         text-align: center;
     }
+    
+    .margin-logo{
+        margin-right: 400px;
+        margin-left: 10px;
+    }
+
+    .bigTxt{
+        font-size: 19px;
+        padding: 5px;
+    }
+     medTxt{
+        font-size: 19px;
+    }
+    .btReserva{
+        font-size: 20px;
+        width: auto;
+    }
 }
