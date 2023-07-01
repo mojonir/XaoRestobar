@@ -513,8 +513,13 @@ h1 {
     }
 
     /* Creating the responsible screen for cardápio */
+    .container2{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .conteudo3{
-        display: inline-block;
         height: 100%;
         width: 100%;
         margin-top: 20px;
@@ -523,8 +528,46 @@ h1 {
         margin-left: -10px
     }
 
+    .marginbottom2{
+        margin-bottom: 40px;
+    }
+
+    .marginbottom3{
+        margin-bottom: -20px;
+    }
+    
+    .margin-left7{
+        margin-left: -30px;
+    }
+
+    .margin-left8{
+        margin-left: -50px;
+    }
+
+    .margin-left9{
+        margin-left: -90px;
+    }
+
+    .margin-right4{
+        margin-right: 25px;
+    }
+
     .sem{
         display: none;
+    }
+
+    .letras{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: -80px;
+        text-align: center;
+    }
+
+    .letras2{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: -40px;
+        text-align: center;
     }
 
     /* Creating the responsible screen for bar */
