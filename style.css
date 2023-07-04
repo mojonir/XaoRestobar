@@ -128,6 +128,18 @@
     margin-right: 30px;
 }
 
+.margin-left4{
+    margin-left: 410px;
+}
+
+.margin-left5{
+    margin-left: -200px;
+}
+
+.margin-left6{
+    margin-left: -10px;
+}
+
 /* Descripiton in the home page */
 
 .descricao{
@@ -189,8 +201,8 @@
 /* Cardapio style*/
 
 .img{
-    width: 40vw;
-    height: 40vh;
+    width: 50vw;
+    height: 50vh;
     margin: 10px 20px;
 }
 
@@ -198,7 +210,7 @@
     float: left;
 }
 
-/* Creating the menu style*/
+/* Creating the menu style for all*/
 .conteiner{
     height: 553px;
     width: 100%;
@@ -208,14 +220,38 @@
 }
 
 .conteudo{
-    height: 184px;
+    height: 200px;
     width: 200px;
     margin-top: 20px;
     text-align: center;
 }
 
-.h3{
-    margin-bottom: -80px;
+.conteudo_1{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.titulo1{
+    margin-bottom: -20px;
+    margin-left: 30px;
+}
+
+.margintop1{
+    margin-top: 32px;
+}
+
+.margintop2{
+    margin-top: 39px;
+}
+
+.marginbottom1{
+    margin-bottom: 40px;
+}
+
+.marginbottom2{
+    margin-bottom: 20px;
 }
 
 .slider{
@@ -363,6 +399,9 @@ h1 {
     display: none;
 }
 
+.margin-left3{
+    margin-left: -5px;
+}
 
 @media only screen and (max-width: 500px) {  
     *{
@@ -465,10 +504,6 @@ h1 {
         height: 87vh;
     }
 
-    .sem{
-        display: none;
-    }
-
     .margin1{
         margin-left: 60px;
     }
@@ -477,48 +512,58 @@ h1 {
         display: block;
     }
 
-     /* Creating the responsible screen for cardápio */
-     .conteudo3{
-        height: 100vh;
-        width: 100vw;
+    /* Creating the responsible screen for cardápio */
+    .conteudo3{
+        display: inline-block;
+        height: 100%;
+        width: 100%;
         margin-top: 20px;
         text-align: center;
-     }
+        overflow: hidden;
+        margin-left: -10px
+    }
 
-     /* Creating the responsible screen for bar */
+    .sem{
+        display: none;
+    }
 
-     .title_mobile{
-        margin-left: 10px;
+    /* Creating the responsible screen for bar */
+
+    .title_mobile{
+        margin-left: 40px;
         margin-top: 10px;
-     }
+        margin-bottom: 5px;
+    }
 
-     .conteudo2{
-        height: 250px;
-        width: 350px;
+    .img2{
+        width: 87vw;
+        height: 87vh;
+        margin-bottom: -240px;
+    }
+
+    .conteudo2{
+        height: 100%;
+        width: 100%;
         margin-top: 20px;
         text-align: center;
-     }
+        overflow: hidden;
+        margin-left: -10px;
+    }
 
-     /* Put the mobile logo in all pages */
-     .logo_mobile{
-        width: 50px;
-        height: 50px;
-     }
-
-     .margin-logo{
+    .margin-logo{
         margin-right: 400px;
         margin-left: 10px;
-     }
+    }
 
-     .bigTxt{
+    .bigTxt{
         font-size: 19px;
         padding: 5px;
-     }
-     .medTxt{
+    }
+     medTxt{
         font-size: 19px;
-     }
-     .btReserva{
+    }
+    .btReserva{
         font-size: 20px;
         width: auto;
-     }
+    }
 }
