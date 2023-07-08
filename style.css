@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #body{
@@ -163,6 +164,37 @@
     font-size: 50px;
     font-weight:900;    
 }
+.bigTxtQuem{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight:900;
+    padding: 52px;    
+}
+.bigTxtReserv{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight:900;    
+}
+a.linkReserv:link {
+    color:#ff0000;
+    text-decoration:none;
+}
+  a.linkReserv:visited {
+    color:#999999;
+    text-decoration:none;
+  }
+  a.linkReserv:hover {
+    color:#000000;
+    text-decoration:underline;
+  }
+  a.linkReserv:active {
+    color:#00ff00;
+    text-decoration:underline;
+    background-color:#000000;
+}    
+
 
 .medTxt{
     text-align: center;
@@ -170,6 +202,20 @@
     font-size: 40px;
     font-weight:200;
     padding-top:300px
+}
+.medTxtReserv{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight:200;
+    padding-top:10px
+}
+.subTxtReserv{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight:200;
+    padding-top:10px
 }
 
 .btReserva{
