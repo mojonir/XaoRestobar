@@ -273,7 +273,6 @@ a.linkReserv:link {
     justify-content: space-around;
 }
 
-
 .conteudo{
     height: 200px;
     width: 200px;
@@ -299,6 +298,10 @@ a.linkReserv:link {
 
 .margintop2{
     margin-top: 39px;
+}
+
+.margintop3{
+    margin-top: 48px;
 }
 
 .marginbottom1{
@@ -470,6 +473,51 @@ h1 {
     margin-left: -295px;
 }
 
+.margin-left13{
+    margin-left: 60px;
+}
+
+.margin-right5{
+    margin-right: 750px;
+}
+
+.marginbottom4{
+    margin-bottom: -50px;
+}
+
+.marginbottom5{
+    margin-bottom: -25px;
+}
+
+
+.conteiner3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteiner4{
+    height: 675px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteiner5{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteiner6{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 @media only screen and (max-width: 500px) {  
     *{
         overflow-x: hidden;
@@ -618,8 +666,17 @@ h1 {
         margin-left: 60px;
     }
 
+    .margin-left14{
+        margin-left: 30px;
+    }
+
     .margin-right4{
         margin-right: 25px;
+    }
+
+    .ajust{
+        margin-top: 10px;
+        height: 35px;
     }
 
     .sem{
@@ -652,7 +709,7 @@ h1 {
         width: 87vw;
         height: 87vh;
         margin-bottom: -240px;
-    }
+    }    
 
     .conteudo2{
         height: 100%;
